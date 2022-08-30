@@ -13,6 +13,8 @@ public class SliderTest : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //œﬁ÷°60
+        Application.targetFrameRate = 60;
         //≥ı ºªØ
         sliderValue = slider.value;
         sliderValue = 0;
@@ -36,6 +38,6 @@ public class SliderTest : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ChangeSlider();
+        //ChangeSlider();
     }
 }
